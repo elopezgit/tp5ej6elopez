@@ -23,39 +23,40 @@
 
         <!-- resolucion de ej 6 -->
 
-        <div class="row mb-3">
-            <div class="col">
-                <div class="input-group">
-                    <span class="input-group-text">Horas</span>
-                    <input type="number" id="horas" class="form-control" min="0">
+        <section>
+            <div class="row mb-3">
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label for="horas" class="form-label">Horas</label>
+                        <input type="number" id="horas" class="form-control" min="0">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label for="minutos" class="form-label">Minutos</label>
+                        <input type="number" id="minutos" class="form-control" min="0" max="59">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label for="segundos" class="form-label">Segundos</label>
+                        <input type="number" id="segundos" class="form-control" min="0" max="59">
+                    </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="input-group">
-                    <span class="input-group-text">Minutos</span>
-                    <input type="number" id="minutos" class="form-control" min="0" max="59">
+            <div class="row">
+                <div class="col">
+                    <button id="iniciarBtn" class="btn btn-primary">Iniciar</button>
+                    <button id="pausarBtn" class="btn btn-secondary">Pausar</button>
+                    <button id="resetBtn" class="btn btn-danger">Reset</button>
                 </div>
             </div>
-            <div class="col">
-                <div class="input-group">
-                    <span class="input-group-text">Segundos</span>
-                    <input type="number" id="segundos" class="form-control" min="0" max="59">
+            <div class="row mt-3">
+                <div class="col">
+                    <h2 id="temporizador">00:00:00</h2>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <button id="iniciarBtn" class="btn btn-primary">Iniciar</button>
-                <button id="pausarBtn" class="btn btn-secondary">Pausar</button>
-                <button id="resetBtn" class="btn btn-danger">Reset</button>
-            </div>
-        </div>
-        <div class="row mt-3">
-            <div class="col">
-                <h2 id="temporizador">00:00:00</h2>
-            </div>
-        </div>
-    </section>
+        </section>
         
     </main>
     <footer class="text-center bg-primary-subtle py-3">
