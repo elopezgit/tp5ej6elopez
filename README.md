@@ -24,7 +24,7 @@
 
 ## Tablas de contenido
 
-- [💻 Sobre TP](#💻-sobre-nexus)
+- [💻 Sobre TP](#💻-sobre-tp)
 - [⚒️ Tecnologías](#⚒️tecnologias)
 - [✅ Requisitos](#✅-requisitos)
 - [💿 Instalación](#💿-instalación)
@@ -87,13 +87,12 @@ _Esteban Alejandro López_
 
 | Medio    | Link                                                    |
 | -------- | ------------------------------------------------------- |
-| Email    | [nexus@gmail.com](mailto:nexus@gmail.com)               |
-| Twitter  | [Perfil de Twitter](https://twitter.com/nexus)          |
-| LinkedIn | [Perfil de LinkedIn](https://www.linkedin.com/in/nexus) |
+| Email    | [nexus@gmail.com](mailto:lopezestebanalejandro@gmail.com)               |          |
+| LinkedIn | [Perfil de LinkedIn](https://www.linkedin.com/in/esteban-alejandro-l%C3%B3pez-9898a231/) |
 
 ## 📄 Licencia
 
-Codigo y documentación copyright 2023-2024 de los autores de NEXUS. Distribuido bajo la licencia MIT. Consulte el archivo LICENSE.md para obtener mas informacion.
+Codigo y documentación copyright 2023-2024 Distribuido bajo la licencia MIT. Consulte el archivo LICENSE.md para obtener mas informacion.
 
 <!-- Markdown links & images -->
 
