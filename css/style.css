@@ -1,0 +1,20 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main{
+  flex-grow: 1;
+}
+
+/* Estilo para alinear los campos de entrada */
+label {
+  display: inline-block;
+  width: 120px; /* Ancho fijo para todas las etiquetas */
+  text-align: right;
+}
+
+input {
+  width: calc(40% - px); /* Ancho del input - ancho de la etiqueta */
+}
